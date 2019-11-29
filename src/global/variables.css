@@ -1,0 +1,17 @@
+:root {
+  font-family: "Roboto", sans-serif;
+
+  --light-shades-color: #ecedee;
+  --light-accent-color: #76b2d2;
+  --main-brand-color: #eda169;
+  --dark-accent-color: #b65a74;
+  --dark-shades-color: #2953b0;
+
+  --primary: #eda168;
+  --info: #2852b0;
+  --success: #7cab57;
+  --warning: #fa9b1f;
+  --danger: #f44336;
+
+  --text: var(--light-shades-color);
+}

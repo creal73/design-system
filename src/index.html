@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/ak-ui.esm.js"></script>
+    <script nomodule src="/build/ak-ui.js"></script>
+    <link rel="stylesheet" href="/build/ak-ui.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script>
+      function onClick() {
+        console.log("main:: Clicked !");
+      }
+    </script>
+    <section>
+      <h1>Button</h1>
+      <ak-button classes="primary" onclick="onClick()">Primary</ak-button>
+      <ak-button classes="primary contrasted" onclick="onClick()"
+        >Primary</ak-button
+      >
+      <br />
+      <ak-button classes="info" onclick="onClick()">Info</ak-button>
+      <ak-button classes="info contrasted" onclick="onClick()">Info</ak-button>
+      <br />
+      <ak-button classes="success" onclick="onClick()">Success</ak-button>
+      <ak-button classes="success contrasted" onclick="onClick()"
+        >Success</ak-button
+      >
+      <br />
+      <ak-button classes="warning" onclick="onClick()">Warning</ak-button>
+      <ak-button classes="warning contrasted" onclick="onClick()"
+        >Warning</ak-button
+      >
+      <br />
+      <ak-button classes="danger" onclick="onClick()">Danger</ak-button>
+      <ak-button classes="danger contrasted" onclick="onClick()"
+        >Danger</ak-button
+      >
+    </section>
+  </body>
+</html>

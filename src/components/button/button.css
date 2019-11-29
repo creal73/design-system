@@ -1,0 +1,69 @@
+:host > div {
+  /* border: 1px solid var(--dark-shades-color); */
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  user-select: none;
+  font-weight: 500;
+  max-width: 200px;
+}
+
+:host > div:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--text);
+}
+
+.primary.contrasted {
+  background-color: var(--text);
+  color: var(--primary);
+}
+
+.info {
+  background-color: var(--info);
+  color: var(--text);
+}
+
+.info.contrasted {
+  background-color: var(--text);
+  color: var(--info);
+}
+
+.success {
+  background-color: var(--success);
+  color: var(--text);
+}
+
+.success.contrasted {
+  background-color: var(--text);
+  color: var(--success);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: var(--text);
+}
+
+.warning.contrasted {
+  background-color: var(--text);
+  color: var(--warning);
+}
+
+.danger {
+  background-color: var(--danger);
+  color: var(--text);
+}
+
+.danger.contrasted {
+  background-color: var(--text);
+  color: var(--danger);
+}
